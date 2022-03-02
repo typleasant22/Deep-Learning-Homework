@@ -7,19 +7,23 @@ Alphabet Soup foundation wanted to create a algorithm to predict whether their a
 
 Results
 Data Preprocessing
-What variable(s) are considered the target(s) for your model?
+1.What variable(s) are considered the target(s) for your model?
 
-The target variable for our model is "IS_SUCCESSFUL", which declares if the money was used effectively or not.
-What variable(s) are considered to be the features for your model?
+The target variable for our model is "IS_SUCCESSFUL", which declares if the money was susscessfully used or not.
 
-The variables considered as features for my model are "APPLICATION_TYPE" and "CLASSIFICATION".
-What variable(s) are neither targets nor features, and should be removed from the input data?
+2.What variable(s) are considered to be the features for your model?
 
-The variables that are neither targets nor features, and were removed from my model were "EIN" and "NAME".
+The variables that are to be considered as features for the model were "APPLICATION_TYPE" and "CLASSIFICATION".
+
+3.What variable(s) are neither targets nor features, and should be removed from the input data?
+
+The variables that are neither targets nor features were "EIN" and "NAME". we used drop column to drop them from the data. 
+
+
 Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-I chose to use 90 neurons with a ReLU function for my first layer, 45 nuerons with a ReLU function for the second, and 15 neurons with a ReLU function for the third, and a sigmoid function for the outer layer.
+I used 90 neurons with a ReLU function for my first layer, 45 nuerons with a ReLU function for the second, and 15 neurons with a ReLU function for the third, and a sigmoid function for the outer layer.
 Were you able to achieve the target model performance?
 
 I was not able to achieve the target model performance.
