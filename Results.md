@@ -21,13 +21,15 @@ The variables that are neither targets nor features were "EIN" and "NAME". we us
 
 
 Compiling, Training, and Evaluating the Model
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+1.How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-I used 90 neurons with a ReLU function for my first layer, 45 nuerons with a ReLU function for the second, and 15 neurons with a ReLU function for the third, and a sigmoid function for the outer layer.
-Were you able to achieve the target model performance?
+I used 90 neurons with a tanh function for my first layer, 46 nuerons with a tanh function for the second, and 18 neurons with a ReLU function for the third, and a sigmoid function for the outer layer.
 
-I was not able to achieve the target model performance.
-What steps did you take to try and increase model performance?
+2.Were you able to achieve the target model performance?
+
+Unfortunely I was not able to achieve the target model performance.
+
+3.What steps did you take to try and increase model performance?
 
 Steps Taken to Optimize the Model: Increasing the number of values for each bin, adding more neurons to a hidden layer, adding more hidden layers, and adding number of epochs to the training regimen.
 Summary
