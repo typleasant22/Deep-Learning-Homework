@@ -3,7 +3,7 @@ Report on the Neural Network Model
 
 Overview
 
-The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not applicants for funding will be successful. We'll be using the features in the provided dataset to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+Alphabet Soup foundation wanted to create a algorithm to predict whether their applicants will be successful to fund them. We were provided a data set to create a binary classifier that would be capable of predicting whether the applicants would be successful if they were funded by Alhabet Soup.
 
 Results
 Data Preprocessing
