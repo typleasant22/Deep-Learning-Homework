@@ -36,4 +36,4 @@ I tried to increase my bin count and add an additional hidden layer to see if I 
 Overall
 The model still did not achieve the target model performance and resulted in an accuracy score of 73%.
 
-I would recommend a classification model such as Logistic Regression due to the fact that we are trying to predict a discrete output of "whether applicants will be successful if funded by Alphabet Soup" (Yes/N
+I would recommend a classification model such as Logistic Regression or decision tree due to the fact that we were trying to predict the success rate of a variable such as "applicants". This was very challenging but I would like to see if the higher outcome of 75% would be possible.
